@@ -1,1 +1,7 @@
-console.log(`Ewer`)
+/*
+Objto new Date
+*/
+
+const hoy = +new Date()
+
+console.log(hoy)
