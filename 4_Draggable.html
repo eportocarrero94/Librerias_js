@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 4. Draggable.js </title>
+    <link rel="stylesheet" href="4_Draggable.css">
+</head>
+<body>
+
+    <main>
+        <div class="elements a"></div>
+        <div class="elements b"></div>
+        <div class="elements c"></div>
+        <div class="elements d"></div>
+        <div class="elements e"></div>
+    </main>
+
+    <div class="container">
+        <div class="dropzone draggable-dropzone--occupied"><div class="item">A</div></div>
+        <div class="dropzone draggable-dropzone--occupied"><div class="item">B</div></div>
+        <div class="dropzone draggable-dropzone--occupied"><div class="item">C</div></div>
+      </div>
+      
+      <div class="container">
+        <div class="dropzone"></div>
+      </div>
+      
+      <style>
+        .item { height: 100%; }
+        .dropzone { outline: solid 1px; height: 50px; }
+        .draggable-dropzone--occupied { background: lightgreen; }
+      </style>
+
+
+    <!-- Droppable only -->
+    <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/droppable.js"></script>
+    <!-- Draggable only -->
+    <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/draggable.js"></script>
+    <script src="4_Draggable.js"></script>
+</body>
+</html>

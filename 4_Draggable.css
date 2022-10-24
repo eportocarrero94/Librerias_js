@@ -1,0 +1,44 @@
+main {
+    display: flex;
+}
+
+.elements {
+    width: 200px;
+    height: 200px;
+    border : 8px solid transparent
+}
+
+.a {
+    background-color: seagreen;
+}
+
+.b {
+    background-color: goldenrod;
+}
+
+.c {
+    background-color: slategray;
+}
+
+.d {
+    background-color: tomato;
+}
+
+.e {
+    background-color: skyblue;
+}
+
+
+
+.draggable--is-dragging {
+    background-color: rgb(18, 36, 53);
+    transition:  all 1s;
+}
+
+.draggable-source--is-dragging {
+    opacity: .3;
+}
+
+.draggable--over {
+    border-color: yellowgreen;
+}

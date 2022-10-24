@@ -1,5 +1,8 @@
-.elemento {
-    width: 400px;
+.element {
+    width: 90vw;
     height: 400px;
     background-color: seagreen;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
