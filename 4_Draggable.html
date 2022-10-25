@@ -9,13 +9,18 @@
 </head>
 <body>
 
-    <main>
+    <h1>Ejemplo con Draggable</h1>
+
+    <main id="main1">
         <div class="elements a"></div>
         <div class="elements b"></div>
         <div class="elements c"></div>
         <div class="elements d"></div>
         <div class="elements e"></div>
     </main>
+
+
+    <h1>Ejemplo con Droppable</h1>
 
     <div class="container">
         <div class="dropzone draggable-dropzone--occupied"><div class="item">A</div></div>
@@ -26,7 +31,7 @@
       <div class="container">
         <div class="dropzone"></div>
       </div>
-      
+
       <style>
         .item { height: 100%; }
         .dropzone { outline: solid 1px; height: 50px; }
@@ -34,10 +39,23 @@
       </style>
 
 
+      <h1>Ejemplo con Sortable</h1>
+
+      <main id="main2">
+        <div class="elements a"></div>
+        <div class="elements b"></div>
+        <div class="elements c"></div>
+        <div class="elements d"></div>
+        <div class="elements e"></div>
+      </main>
+
+
     <!-- Droppable only -->
     <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/droppable.js"></script>
     <!-- Draggable only -->
     <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/draggable.js"></script>
+    <!-- Sortable only -->
+    <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.11/lib/sortable.js"></script>
     <script src="4_Draggable.js"></script>
 </body>
 </html>
