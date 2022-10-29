@@ -2,8 +2,8 @@
     "tasks": [
       { 
         "id": 1, 
-        "title": "Crear JSON para el proyecto",
-        "person": "ewer",
+        "title": "Estudiar Angular",
+        "person": "Ewer Portocarrero",
         "state": "to-do",
         "deadline": 1667250000,
         "created": 1666900800
@@ -11,7 +11,7 @@
       { 
         "id": 2, 
         "title": "Crear 2 JSON para el proyecto",
-        "person": "saul",
+        "person": "Saul Escandon",
         "state": "in-progress",
         "deadline": 1667250000,
         "created": 1666900800
@@ -19,7 +19,31 @@
       { 
         "id": 3, 
         "title": "Crear 3 JSON para el proyecto",
-        "person": "luisa",
+        "person": "Luisa Gamarra",
+        "state": "done",
+        "deadline": 1667250000,
+        "created": 1666900800
+      },
+      { 
+        "id": 4, 
+        "title": "Crear JSON para el proyecto",
+        "person": "Ewer Portocarrero",
+        "state": "to-do",
+        "deadline": 1667250000,
+        "created": 1666900800
+      },
+      { 
+        "id": 5, 
+        "title": "Crear JSON para el proyecto",
+        "person": "Ewer Portocarrero",
+        "state": "to-do",
+        "deadline": 1667250000,
+        "created": 1666900800
+      },
+      { 
+        "id": 6, 
+        "title": "Crear JSON para el proyecto",
+        "person": "Ewer Portocarrero",
         "state": "done",
         "deadline": 1667250000,
         "created": 1666900800
